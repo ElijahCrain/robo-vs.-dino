@@ -26,5 +26,10 @@ namespace Robots_Vs.Dinosaurs
 		}
 
 		//member method
+		public void DinoAttack(Robot robot)
+		{
+
+		}
+
 	}
 }

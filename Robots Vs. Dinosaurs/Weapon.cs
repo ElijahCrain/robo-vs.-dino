@@ -9,10 +9,15 @@ namespace Robots_Vs.Dinosaurs
 	class Weapon
 	{
 		//member verables
-
+		public string wepontype;
+		public double attackPower;
 
 		//constructor
-
+		public Weapon(string sword,double weaponPower)
+		{
+			wepontype = sword;
+			attackPower = weaponPower;
+		}
 
 		//member method
 

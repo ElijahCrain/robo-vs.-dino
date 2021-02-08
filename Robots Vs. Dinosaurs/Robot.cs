@@ -28,5 +28,11 @@ namespace Robots_Vs.Dinosaurs
 
 
 		//member method
+		public void RobotAttack(Dinosaur dinosaur)
+		{
+
+		}
+
+
 	}
 }
