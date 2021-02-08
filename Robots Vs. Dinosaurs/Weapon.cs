@@ -8,5 +8,13 @@ namespace Robots_Vs.Dinosaurs
 {
 	class Weapon
 	{
+		//member verables
+
+
+		//constructor
+
+
+		//member method
+
 	}
 }

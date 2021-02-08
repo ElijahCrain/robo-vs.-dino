@@ -8,7 +8,22 @@ namespace Robots_Vs.Dinosaurs
 {
 	class Battlefield
 	{
+		static void Main(string[] args)
+		{
+			
 
+
+			
+		}
+
+
+		//member verables
+
+
+		//constructor
+
+
+		//member method
 
 
 	}
