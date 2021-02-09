@@ -10,10 +10,10 @@ namespace Robots_Vs.Dinosaurs
 	{
 		//member verables
 		public string wepontype;
-		public double attackPower;
+		public int attackPower;
 
 		//constructor
-		public Weapon(string sword,double weaponPower)
+		public Weapon(string sword,int weaponPower)
 		{
 			wepontype = sword;
 			attackPower = weaponPower;

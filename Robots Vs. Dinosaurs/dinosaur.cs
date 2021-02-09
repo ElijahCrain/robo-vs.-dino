@@ -13,11 +13,11 @@ namespace Robots_Vs.Dinosaurs
 		public string dinotype;
 		public int health;
 		public double energy;
-		public double attackPower;
+		public int attackPower;
 
 
 		//constructor
-		public Dinosaur (string kind, int health, double dinoEnergy, double dinoAttackPower)
+		public Dinosaur (string kind, int health, double dinoEnergy, int dinoAttackPower)
 		{
 			dinotype = kind;
 			this.health = health;
@@ -28,7 +28,8 @@ namespace Robots_Vs.Dinosaurs
 		//member method
 		public void DinoAttack(Robot robot)
 		{
-
+			//Use writelines to describe attack that is happening
+			robot.health -= attackPower;
 		}
 
 	}

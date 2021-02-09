@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Robots_Vs.Dinosaurs
 {
-	class fleet
+	class Fleet
 	{
 		//member verables
-		List<Robot> robots = new List<Robot>();
+		public List<Robot> robots = new List<Robot>();
 
 		//constructor
-		public fleet()
+		public Fleet()
 		{
-			Robot robotOne = new Robot("bob", 100, 100,"sword", 25);
-			Robot robotTwo = new Robot("tom", 100, 100,"sword", 25);
-			Robot robotThree = new Robot("josh", 100, 100,"sword", 25);
+			Robot robotOne = new Robot("bob", 100, 100);
+			Robot robotTwo = new Robot("tom", 100, 100);
+			Robot robotThree = new Robot("josh", 100, 100);
 
 			robots.Add(robotOne);
 			robots.Add(robotTwo);

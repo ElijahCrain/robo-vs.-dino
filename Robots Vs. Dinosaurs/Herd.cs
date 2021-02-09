@@ -9,18 +9,18 @@ namespace Robots_Vs.Dinosaurs
 	class Herd
 	{
 		//member verables
-		List<Dinosaur> dinosaurs = new List<Dinosaur>();
+		public List<Dinosaur> dinosaurs = new List<Dinosaur>();
 
 		//constructor
 		public Herd()
 		{
-			Dinosaur dinosaurOne = new Dinosaur("TRex", 100, 100, 25);
+			Dinosaur dinosaurOne = new Dinosaur("TRex", 100, 100, 30);
 			Dinosaur dinosaurTwo = new Dinosaur("allosaurus", 100, 100, 25);
-			Dinosaur dinosaurThree = new Dinosaur("raptor", 100, 100, 25);
+			Dinosaur dinosaurThree = new Dinosaur("raptor", 100, 100, 20);
 
 			dinosaurs.Add(dinosaurOne);
-			dinosaurs.Add(dinosaurOne);
-			dinosaurs.Add(dinosaurOne);
+			dinosaurs.Add(dinosaurTwo);
+			dinosaurs.Add(dinosaurThree);
 		}
 
 		//member method
